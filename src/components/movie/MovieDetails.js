@@ -52,6 +52,10 @@ const MovieDetails = (props) => {
     };
   }, [movieId]);
 
+  if (!movie.title) {
+    return <h3>Loading....</h3>;
+  }
+
   return (
     <div className="container">
       <div className="row">
