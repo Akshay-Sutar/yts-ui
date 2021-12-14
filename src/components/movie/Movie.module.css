@@ -1,0 +1,9 @@
+.movie {
+  max-width: 20rem;
+  max-height: 20rem;
+  padding: 2px;
+}
+
+img {
+  max-height: 10rem;
+}
